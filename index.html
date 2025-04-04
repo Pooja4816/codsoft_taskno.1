@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }  
+   
+header{
+    position: fixed;
+    transition: 0.6s;
+    width: 100%;
+    height:50px;
+    background-image:url("nav.jpeg");
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu a{
+text-decoration: none;
+color:white;
+padding: 10px 20px;
+font-size: 20px;
+position: relative;
+}
+.logo{
+    font-size:xx-large;
+    font-weight: bold;
+    color: brown;
+}
+.intro{
+    width: 100%;
+    height: 100vh;
+    background-image: url("lightback.jpeg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+h2{
+    font-size: 38px;
+}
+h1{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 34px;
+}
+
+.image{
+width: 350px;
+height: 350px;
+top: 25%;
+left:55%;
+border-radius: 50%;
+position: absolute;
+}
+ #about h1{
+    font: size 50px;;
+    font-weight: 200;
+    text-align: center;
+    
+}
+#about p{
+    font-size: 20px;
+    text-align: justify;
+}
+#about{
+    background-color:#FFC5CB;
+    height: 600px;
+}
+#Teams img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border:3px  solid;
+  
+  
+
+}
+
+.service-list {
+	padding: 40px;
+	margin-top: 35px;
+	background: #f374a5;
+	border-radius: 15px;
+	width: 94%;
+	float: left;
+}
+
+.service-list i {
+	font-size: 50px;
+	color: #f173a8;
+	width: 70px;
+	float: left;
+}
+
+.service-list h3 {
+	font-size: 28px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+.service-list p {
+	font-size: 15px;
+	line-height: 25px;
+}
+.box{
+    border: solid 5px black;
+    border-radius: 8px ;
+}
+
+
+#Skills{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-family: 1.2rem;
+}
+
+
+
+
+</style>
+
+<body>
+  <section id="home">
+<header>
+    <nav>
+        <div class="logo">
+
+    My Portfolio</h1>
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+             <a href="#Skills">Skills</a>
+             <a href="MandalPoojaRanjeetResume.pdf">Resume</a>
+             <a href="#contact">Contact</a>
+             
+
+
+
+
+        </div>
+    </nav>
+        
+
+</header>
+<section class="intro">
+    <div>
+<h3>Hello,</h3>
+<h1>I am<span> Pooja Mandal</span></h1>
+<h2>Web Developer</h2>
+<h3 style="font-size: 30px;">Vadodara, Gujarat</h4>
+<div>
+
+    </div>
+    </div>
+</section>
+<img class="image" src="photo.jpeg" alt="not found">
+<div id="about"> 
+    <h1>ABOUT ME</h1>
+    <p style="font-size: 30px; margin-left: 10px;">Currently pursuing a BTech in Computer Science and Engineering with a focus on Artificial Intelligence | Driven by a Passion for AI & Machine Learning | Skilled in C, C++, Python, Java | Front-End Development | Building a Strong Foundation in DSA.
+<br>
+
+
+I’m always curious to learn, grow, and collaborate with like-minded individuals who share a passion for technology and innovation. My goal is to leverage my technical skills to solve complex problems and contribute meaningfully to the field of AI and software development.
+<br>
+
+
+Feel free to connect with me to discuss AI, programming, or collaboration opportunities!
+    </p>
+
+</div>
+  </section>
+<section style="background-color: #FFC5CB;">
+<div  id="service">
+    <div class="container">
+      <h1 style="text-align: center;" >My Services</h1>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="box"></i>
+          <h3>Web Development</h3>
+          
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="box"></i>
+          <h3>Photography</h3>
+          
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="box"></i>
+          <h3>Leadership</h3>
+          
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="box"></i>
+          <h3>Video Editing</h3>
+
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="box"></i>
+          <h3>Team Management</h3>
+          
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="box"></i>
+          <h3>App Developing</h3>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section style="background-color: #FFC5CB;">
+  <h1 style="text-align: center;"> Skills</h1>
+  <div id="Skills">
+    
+    <div class="langI"> <img src="html.png" >
+      <div class="coding">
+      <h4>HTML</h4>
+      </div>
+  </div>
+  <div class="lang"> <img src="css.png" >
+    <div class="coding">
+    <h4>CSS</h4>
+    </div>
+</div>
+<div class="lang"> <img src="js.jpeg" >
+  <div class="coding">
+  <h4>JavaScript</h4>
+  </div>
+</div>
+<div class="lang"> <img src="c.png" >
+  <div class="coding">
+  <h4>C</h4>
+  </div>
+</div>
+<div class="lang"> <img src="c++.png" >
+  <div class="coding">
+  <h4>C++</h4>
+  </div>
+</div>
+ </div>
+  </section>
+  
+  <section id="contact" style="background-color: #FFC5CB; text-align: center;" >
+    <h2>Contact me</h2>
+    <h4>E-mail:mandalpooja@1238gmail.com</h4>
+    <h4>Phone no.969903XXXX</h4>
+  </section>
+
+
+
+    
+</body>
+</html>d:\Desktop\ceo.jpeg
